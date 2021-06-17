@@ -1493,8 +1493,15 @@ on property:persist.service.operamax=1
 on property:persist.service.operamax=0
     stop OperaMaxSystem
 
-service kpoc_charger /system/bin/kpoc_charger
+
+# Charger
+service kpoc_charger /sbin/healthd -c
     class charger
+    critical
+    seclabel u:r:healthd:s0
+
+#service kpoc_charger /system/bin/kpoc_charger
+#    class charger
 
 ###########add for 3Gdongle
 

@@ -23,6 +23,7 @@ include $(LOCAL_PATH)/board/*.mk
 
 # Device vendor board
 -include vendor/ulefone/U008_Pro/BoardConfigVendor.mk
+TARGET_LDPRELOAD += libxlog.so:libmtk_symbols.so # for symbols in mtkaudio.cpp + mtksymbols
 
 #######################################################################
 

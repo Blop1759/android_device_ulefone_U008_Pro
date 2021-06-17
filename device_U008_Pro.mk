@@ -26,11 +26,6 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # Device product elements
 include $(LOCAL_PATH)/product/*.mk
 
-# Device packages specific
-#PRODUCT_PACKAGES += \
-   libmrdump \
-   mrdump_tool \
-   libxlog
 
 # Dalvik heap configurations
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxxhdpi-2048-dalvik-heap.mk)

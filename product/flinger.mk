@@ -1,3 +1,4 @@
 PRODUCT_PACKAGES += \
-   mrdump \
+   libmrdump \
+   mrdump_tool \
    libxlog

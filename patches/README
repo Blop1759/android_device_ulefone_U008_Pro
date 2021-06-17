@@ -1,0 +1,5 @@
+This is patch directory
+
+cd WORKING_DIR
+sh device/ulefone/U008_Pro/patches/install.sh
+sh device/ulefone/U008_Pro/patches/uninstall.sh

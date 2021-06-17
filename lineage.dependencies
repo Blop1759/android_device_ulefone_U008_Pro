@@ -1,0 +1,12 @@
+ [
+  {
+    "remote": "github",
+    "repository": "blop1759/android_vendor_ulefone_U008_Pro",
+    "target_path": "vendor/ulefone/U008_Pro"
+  },
+  {
+    "remote": "github",
+    "repository": "blop1759/android_kernel_ulefone_U008_Pro",
+    "target_path": "kernel/mediatek/ulefone_u008_pro"
+  }
+]

@@ -1,0 +1,3 @@
+add_lunch_combo full_u008_pro-user
+add_lunch_combo full_u008_pro-userdebug
+add_lunch_combo full_u008_pro-eng
